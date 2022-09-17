@@ -1,0 +1,10 @@
+{
+  "name": "vercel-express-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dima Vakatsiienko <imagnum.satellite@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.18.1"
+  }
+}
