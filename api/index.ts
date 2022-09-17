@@ -3,8 +3,6 @@ const { v4 } = require('uuid');
 
 const app = express();
 
-// app.use(express.static('public'));
-
 app.get('/api', (req, res) => {
     const path = `/api/item/${v4()}`;
     res.setHeader('Content-Type', 'text/html');

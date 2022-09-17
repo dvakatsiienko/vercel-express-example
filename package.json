@@ -1,11 +1,17 @@
 {
   "name": "vercel-express-example",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.0.1",
   "author": "Dima Vakatsiienko <imagnum.satellite@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node -r @swc-node/register api/script.ts"
+  },
   "dependencies": {
     "express": "4.18.1",
     "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "@swc-node/register": "1.5.1",
+    "typescript": "4.8.3"
   }
 }
