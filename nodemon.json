@@ -1,6 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/nodemon.json",
-    "watch": ["./api/index.ts"],
+    "watch": [ "./api/*", "package.json", "nodemon.json"],
     "execMap": {
         "ts": "node -r @swc-node/register"
     }

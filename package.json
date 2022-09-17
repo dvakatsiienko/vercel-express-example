@@ -4,8 +4,8 @@
   "author": "Dima Vakatsiienko <imagnum.satellite@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node -r @swc-node/register ./api/index.ts",
-    "start-1": "nodemon"
+    "start": "nodemon api/index.ts",
+    "start1": "node -r @swc-node/register ./api/index.ts"
   },
   "dependencies": {
     "express": "4.18.1",
