@@ -1,6 +1,5 @@
 {
     "rewrites": [
-        { "source": "/api/(.*)", "destination": "/api" },
-        { "source": "/img", "destination": "/public/earphone.png" }
+        { "source": "/api/(.*)", "destination": "/api" }
     ]
 }
